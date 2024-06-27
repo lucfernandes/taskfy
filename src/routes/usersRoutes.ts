@@ -1,5 +1,6 @@
 import { Router } from "express";
 
+// Inicializa rotas do usuário - necessita de token
 const usersRoutes = Router();
 
 usersRoutes.get("/", (req, res) => {
